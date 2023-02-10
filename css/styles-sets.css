@@ -1,0 +1,26 @@
+body {
+    justify-content: center;
+    align-self: center;
+}
+
+.calculadora {
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    align-items: center;
+    justify-content: center;
+}
+
+.in-lineH {
+
+    flex-direction: row;
+}
+
+.in-lineH,
+.calculadora,
+button,
+body {
+    display: flex;
+}
